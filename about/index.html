@@ -1,53 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
-    <meta charset="UTF-8">
-    <title>自己紹介</title>
+  <meta charset="UTF-8">
+  <title>翠-Sui</title>
+  <style>
+    /* 全体の背景色と文字色 */
+    body {
+      background-color: #fffdf5;
+      color: #502200;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
+    /* 左側のサイドバー */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 220px;
+      height: 100vh;
+      background-color: #0d6b74;
+      padding: 30px 20px;
+      box-sizing: border-box;
+      color: white;
+    }
+
+    .sidebar .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+
+    .sidebar a:hover {
+      opacity: 0.7;
+    }
+
+    /* 右側のコンテンツ */
+    .content {
+      margin-left: 260px; /* サイドバー幅220px + 余白40px */
+      padding: 40px;
+      background-color: #fffdf5;
+      color: #502200;
+    }
+
+    /* コンテンツ内のリンク色 */
+    .content a {
+      color: #8a4a00;
+      text-decoration: underline;
+    }
+
+    .content a:hover {
+      opacity: 0.7;
+    }
+  </style>
 </head>
 <body>
-    <style>
-/* 左側のサイドバー */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 220px;
-    height: 100vh;
-    background-color: #0d6b74; /* 好きな色に変えてOK */
-    padding: 30px 20px;
-    box-sizing: border-box;
-    color: white;
-    font-family: sans-serif;
-}
-
-/* サイトタイトル */
-.sidebar .title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-/* メニュー */
-.sidebar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-.sidebar a:hover {
-    opacity: 0.7;
-}
-
-/* 右側のコンテンツ */
-.content {
-    margin-left: 260px;
-    padding: 40px;
-    font-family: sans-serif;
-}
-</style>
 
 <div class="sidebar">
     <div class="title">翠-Sui</div>
