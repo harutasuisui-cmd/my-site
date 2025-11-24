@@ -1,85 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="ja">
 <head>
   <meta charset="UTF-8">
   <title>My Site</title>
+  <style>
+    /* 左側のサイドバー */
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 220px;
+      height: 100vh;
+      background-color: #0d6b74;
+      padding: 30px 20px;
+      box-sizing: border-box;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    .sidebar .title {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 40px;
+    }
+
+    .sidebar a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      margin-bottom: 20px;
+      font-size: 15px;
+      letter-spacing: 1px;
+    }
+    .sidebar a:hover {
+      opacity: 0.7;
+    }
+
+    /* 右側のコンテンツ */
+    .content {
+      margin-left: 260px; /* サイドバー幅220px + 余白40px */
+      padding: 40px;
+      font-family: sans-serif;
+    }
+  </style>
 </head>
 <body>
-  <style>
-/* 左側のサイドバー */
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 220px;
-    height: 100vh;
-    background-color: #0d6b74; /* 好きな色に変えてOK */
-    padding: 30px 20px;
-    box-sizing: border-box;
-    color: white;
-    font-family: sans-serif;
-}
 
-/* サイトタイトル */
-.sidebar .title {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 40px;
-}
-
-/* メニュー */
-.sidebar a {
-    display: block;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 20px;
-    font-size: 15px;
-    letter-spacing: 1px;
-}
-
-.sidebar a:hover {
-    opacity: 0.7;
-}
-
-/* 右側のコンテンツ */
-.content {
-    margin-left: 260px;
-    padding: 40px;
-    font-family: sans-serif;
-}
-</style>
-
-<div class="sidebar">
+  <div class="sidebar">
     <div class="title">翠-Sui</div>
 
-    <a href="/Sui/index.html">HOME</a>
-    <a href="/Sui/downloads/">DOWNLOAD</a>
-    <a href="/Sui/terms/">TERMS OF USE</a>
-    <a href="/Sui/about/">ABOUT</a>
-    <a href="/Sui/contact/">CONTACT</a>
-</div>
-  
-<!-- ここからページごとの内容になる -->
-<div class="content">
-  <h1>このサイトについて</h1>
-  <p>このサイトは、合成音声「煌詩ルリ」「煌詩ハリ」「つのぎゅー」「KEEPTIME」の配布サイトです。<br>
+    <a href="index.html">HOME</a>
+    <a href="downloads/index.html">DOWNLOAD</a>
+    <a href="terms/terms.html">TERMS OF USE</a>
+    <a href="about/index.html">ABOUT</a>
+    <a href="contact/index.html">CONTACT</a>
+  </div>
+
+  <div class="content">
+    <h1>このサイトについて</h1>
+    <p>このサイトは、合成音声「煌詩ルリ」「煌詩ハリ」「つのぎゅー」「KEEPTIME」の配布サイトです。<br>
     左のメニューから各ページへアクセスできます。<br>
-  ご利用の前に必ず、<a href="terms/terms.html">利用規約</a> をご確認ください。</p>
-  
-   <h2>更新履歴</h2>
+    ご利用の前に必ず、<a href="terms/terms.html">利用規約</a>をご確認ください。</p>
+
+    <h2>更新履歴</h2>
     <ul>
-        <li>[2025/02/01] サイト公開しました。</li>
+      <li>[2025/02/01] サイト公開しました。</li>
     </ul>
-  
-</div> <!--content end-->
+  </div>
+
 </body>
- 
 </html>
-
-
-
-
-
-
-
-
