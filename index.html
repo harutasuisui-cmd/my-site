@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <title>翠-Sui</title>
   <style>
+    /* 全体の背景色と文字色 */
+    body {
+      background-color: #fffdf5;
+      color: #502200;
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+    }
+
     /* 左側のサイドバー */
     .sidebar {
       position: fixed;
@@ -15,7 +24,6 @@
       padding: 30px 20px;
       box-sizing: border-box;
       color: white;
-      font-family: sans-serif;
     }
 
     .sidebar .title {
@@ -32,6 +40,7 @@
       font-size: 15px;
       letter-spacing: 1px;
     }
+
     .sidebar a:hover {
       opacity: 0.7;
     }
@@ -40,7 +49,18 @@
     .content {
       margin-left: 260px; /* サイドバー幅220px + 余白40px */
       padding: 40px;
-      font-family: sans-serif;
+      background-color: #fffdf5;
+      color: #502200;
+    }
+
+    /* コンテンツ内のリンク色 */
+    .content a {
+      color: #8a4a00;
+      text-decoration: underline;
+    }
+
+    .content a:hover {
+      opacity: 0.7;
     }
   </style>
 </head>
@@ -56,11 +76,12 @@
   </div>
 
   <div class="content">
-    
     <h1>このサイトについて</h1>
-    <p>このサイトは、合成音声「煌詩ルリ」「煌詩ハリ」「つのぎゅー」「KEEPTIME」の配布サイトです。<br>
-    左のメニューから各ページへアクセスできます。<br>
-    ご利用の前に必ず、<a href="https://harutasuisui-cmd.github.io/Sui/terms/index.html">利用規約</a>をご確認ください。</p>
+    <p>
+      このサイトは、合成音声「煌詩ルリ」「煌詩ハリ」「つのぎゅー」「KEEPTIME」の配布サイトです。<br>
+      左のメニューから各ページへアクセスできます。<br>
+      ご利用の前に必ず、<a href="https://harutasuisui-cmd.github.io/Sui/terms/index.html">利用規約</a>をご確認ください。
+    </p>
 
     <h2>更新履歴</h2>
     <ul>
@@ -70,7 +91,3 @@
 
 </body>
 </html>
-
-
-
-
