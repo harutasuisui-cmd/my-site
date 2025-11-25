@@ -88,6 +88,16 @@
   background-color: #09565c; /* ちょっと濃い色に */
   transform: translateY(-2px); /* 浮き上がる感じ */
 }
+.sns-buttons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;        /* ← 横並びにする */
+  gap: 15px;            /* ← ボタン同士の間隔 */
+}
+
+.sns-buttons li {
+  margin: 0;            /* ← 下の余白をなくす（横並びになるから不要） */
+}
 
   </style>
 </head>
@@ -120,11 +130,11 @@
       </ul>
 
     </p>
-  
+  <br>
+  <br>
     <p>
     からもです。<br>
     「煌詩ハリ」の声をしています。<br>
-     <h2>SNS ＆ リンク</h2>
 
       <ul class="sns-buttons">
       <li><a href="https://x.com/Karamo_ramo" target="_blank">Twitter（X）</a></li>
